@@ -32,6 +32,7 @@ jobs:
         run: |
           echo Hello, world!
           uname -a
+          cat /proc/cpuinfo
           ip a
           tracepath www.google.com
       # Runs a set of commands using the runners shell
